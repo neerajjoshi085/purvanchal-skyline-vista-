@@ -133,15 +133,15 @@ body {
 }
 
 .sidebar .sidebar-text {
-    margin-top: auto;
+ margin-top: auto;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     color: #000;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: var(--font-light);
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-family: var(--font-tertiary);
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .sidebar-menu {
@@ -821,7 +821,8 @@ ul.keyhighlight-ul {
 }
 
 .header-logo {
-    object-fit: contain
+    object-fit: contain;
+        width: 40px;
 }
 
 .header-divider {
@@ -2539,14 +2540,12 @@ p.sub_tagline-2-top {
     top: 15%;
     width: auto;
     max-width: 300px;
-    opacity: .1 !important
 }
 
 .floor-plans-section img.floor-plans-flower {
-    top: 22%;
+    top: 10%;
     opacity: 1;
-    max-width: 190px;
-    opacity: .2 !important
+    max-width: 250px;
 }
 
 img.floor-plans-flower.right_logo {
@@ -2853,7 +2852,7 @@ header.header.gsap-header.pin-active .mobile-menu-toggle .hamburger-menu span {
     }
 
     .floor-plans-section .floor-plans-content {
-        max-width: 45%
+        max-width: 100%
     }
 
     .floor-plans-section .swiper_control {
