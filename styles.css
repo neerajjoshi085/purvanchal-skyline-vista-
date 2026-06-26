@@ -4485,8 +4485,9 @@ header.header.gsap-header.pin-active .mobile-menu-toggle .hamburger-menu span {
         max-width: 160px
     }
 
-    .floor-plans-section img.floor-plans-flower {
-        max-width: 90px
+       .floor-plans-section img.floor-plans-flower {
+        max-width: 90px;
+        display: none;
     }
 
     .contact-us-section.animated .contact-us-flower-right {
@@ -4494,11 +4495,10 @@ header.header.gsap-header.pin-active .mobile-menu-toggle .hamburger-menu span {
     }
 
     section#floor-plans-section .container img {
-        /* filter: brightness(1.1); */
         margin: 0 auto;
-        height: 210px;
-        object-fit: cover;
+        object-fit: fill;
         margin-bottom: 20px;
+        width: 100%;
     }
 .floor-plans-section .swiper_control div.swiper-wrapper {
     justify-content: flex-start;
