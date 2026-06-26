@@ -3473,7 +3473,16 @@ header.header.gsap-header.pin-active .mobile-menu-toggle .hamburger-menu span {
     .closemenu {
         display: none
     }
-
+    .about-developer-card::before, .about-developer-card::after{
+        display: none;
+    }
+    .about-developer-card h4 {
+        font-size: 18px;
+        color: #fff;
+    }
+    .about-developer-card p {
+    font-size: 14px;
+}
     .plan-nav-prev,
     .plan-nav-next {
         display: flex;
@@ -4236,7 +4245,7 @@ header.header.gsap-header.pin-active .mobile-menu-toggle .hamburger-menu span {
     .gallery-section .gallery-title {
         font-size: 18px;
         letter-spacing: 3px;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
         max-width: 100%;
         margin-top: 25px;
         line-height: inherit
@@ -4485,12 +4494,15 @@ header.header.gsap-header.pin-active .mobile-menu-toggle .hamburger-menu span {
     }
 
     section#floor-plans-section .container img {
-        filter: brightness(1.1);
+        /* filter: brightness(1.1); */
         margin: 0 auto;
         height: 210px;
-        object-fit: cover
+        object-fit: cover;
+        margin-bottom: 20px;
     }
-
+.floor-plans-section .swiper_control div.swiper-wrapper {
+    justify-content: flex-start;
+}
     .hero-keyhighlights-box-2 {
         width: 90%;
     }
