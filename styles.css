@@ -1981,7 +1981,7 @@ section#floor-plans-section .container img {
 .floor-plans-section .floor-plans-content {
     position: relative;
     z-index: 3;
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
     text-align: center
 }
