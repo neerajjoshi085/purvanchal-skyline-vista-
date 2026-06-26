@@ -657,6 +657,7 @@ ul.keyhighlight-ul-2 li {
 ul.keyhighlight-ul li span {
     font-size: 20px;
     font-family: var(--font-secondary);
+    display: block;
 }
 
 ul.keyhighlight-ul li {
@@ -3734,12 +3735,32 @@ header.header.gsap-header.pin-active .mobile-menu-toggle .hamburger-menu span {
 
     ul.keyhighlight-ul {
         margin-bottom: 28px;
-        gap: 10px
+        gap: 10px;
+                display: block;
     }
-
-    ul.keyhighlight-ul-2 .second-ul-first-li {
+    ul.keyhighlight-ul li{
+        padding: 10px 0;
+        text-align: left;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0.5px solid #000;
+    }
+    ul.keyhighlight-ul li:last-child{
+          border-bottom: 0;
+          padding-bottom: 0;
+    }
+    ul.keyhighlight-ul li.third-li{
+        padding-right: 0;
+        padding-left: 0;
+         border-left: 0;
+        
+    }
+    ul.keyhighlight-ul li.first-li{
+        border-right: 0;
+    }
+    /* ul.keyhighlight-ul-2 .second-ul-first-li {
         padding-right: 30px
-    }
+    } */
 
     .hero-section .hero-content .hero-btn {
         font-size: 14px;
