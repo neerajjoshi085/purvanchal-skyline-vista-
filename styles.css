@@ -2639,7 +2639,9 @@ header.header.gsap-header.pin-active .mobile-menu-toggle .hamburger-menu span {
 .whatsapp-section img.img-fluid {
     width: 38px;
 }
-
+.floor-plans-section .swiper_control div.swiper-wrapper {
+    justify-content: center;
+}
 @media (max-width: 1600px) {
     .call-section {
         bottom: 90px
@@ -2902,6 +2904,10 @@ header.header.gsap-header.pin-active .mobile-menu-toggle .hamburger-menu span {
     }
     .hero-section .hero-content .hero-title-image {
         width: 80px;
+    }
+    .floor-plans-section img.floor-plans-flower {
+
+    max-width: 100px;
     }
     .hero-keyhighlights-box h4.heading-top-1 {
         font-size: 24px;
