@@ -2898,9 +2898,11 @@ header.header.gsap-header.pin-active .mobile-menu-toggle .hamburger-menu span {
 
     ul.keyhighlight-ul,
     ul.keyhighlight-ul-2 {
-        gap: 0 30px
+        gap: 0 10px;
     }
-
+    .hero-section .hero-content .hero-title-image {
+        width: 80px;
+    }
     .hero-keyhighlights-box h4.heading-top-1 {
         font-size: 24px;
         margin-bottom: 0
@@ -2944,7 +2946,7 @@ header.header.gsap-header.pin-active .mobile-menu-toggle .hamburger-menu span {
     }
 
     .hero-keyhighlights-box h4.heading-top-1 {
-        font-size: 22px;
+        font-size: 12px;
         padding-bottom: 5px;
     }
 
